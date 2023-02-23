@@ -1,1 +1,59 @@
+.mvv {
+  margin-top: 100px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
 
+.mvv-section {
+  font-size: 2rem;
+}
+
+.mvv-section:nth-child(1) {
+  text-align: left;
+}
+
+.mvv-section:nth-child(2) {
+  text-align: center;
+}
+
+.mvv-section:nth-child(3) {
+  text-align: right;
+}
+
+.mvv-box {
+  display: grid;
+  grid-template-rows: 0.8fr 1fr;
+  position: relative;
+  background-color: #fdbdbd;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.hole {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 360px;
+  background-color: #000;
+}
+
+.hole:nth-child(1) {
+  left: 60px;
+}
+
+.hole:nth-child(2) {
+  right: 60px;
+}
+
+.line {
+  position: absolute;
+  z-index: 200;
+  top: 8px;
+  left: 10px;
+  width: 15.8vw;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
