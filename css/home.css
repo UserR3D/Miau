@@ -9,7 +9,7 @@
 .card-grid {
   display: grid;
   justify-content: center;
-  grid-template-rows: 1.8fr auto;
+  grid-template-rows: 2fr 1fr;
 }
 
 .card {
