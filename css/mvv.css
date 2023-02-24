@@ -1,15 +1,24 @@
 .mvv {
-  margin-top: 100px;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
   align-items: center;
   gap: 20px;
 }
 
 .mvv-section {
   font-size: 1.4rem;
+  opacity: 0.6;
+  transform: scale(0.8);
+  transition: 0.4s;
 }
 
-.mvv-section:nth-child(1) {
+.mvv-section:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.mvv-section .mvv-section:nth-child(1) {
   text-align: left;
 }
 
@@ -25,38 +34,39 @@
   position: relative;
   background-color: #fdbdbd;
   border-radius: 5px;
-  max-width: 500px;
+  max-width: 380px;
   max-height: 400px;
   padding: 30px;
-}
-
-.hole {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 360px;
-  background-color: #000;
-}
-
-.hole:nth-child(1) {
-  left: 60px;
-}
-
-.hole:nth-child(2) {
-  right: 60px;
+  border: solid 2px #000;
 }
 
 .line {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.line::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px #000;
+  border-radius: 360px;
+}
+
+.line::after {
+  content: "";
   position: absolute;
-  z-index: 200;
-  top: 8px;
-  left: 10px;
-  width: 315px;
-  height: 4px;
-  background-color: #fff;
-  border-radius: 2px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 3px #000;
+  border-radius: 360px;
 }
 
 .rope {
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }

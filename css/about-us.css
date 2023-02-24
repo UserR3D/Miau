@@ -1,6 +1,7 @@
 .about-us {
   margin-top: 120px;
   background-color: #e9e0e0;
+  padding: 60px;
 }
 
 .about img {
@@ -21,7 +22,7 @@
 }
 
 .about:first-child {
-  padding-top: 120px;
+  padding-top: 30px;
 }
 
 .about:nth-child(2) {

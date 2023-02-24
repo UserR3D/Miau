@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 100px;
+  display: flex;
+  background-color: #7aebb2;
+}
+
+.footer-contatos {
+  display: flex;
+  align-items: center;
+  color: #000;
+  gap: 40px;
+  padding: 40px;
+  font-size: 1.4rem;
+}

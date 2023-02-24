@@ -17,8 +17,22 @@
 .header-nav a {
   font-size: 1.3rem;
   color: #35194a;
-  background-color: #d3caca;
   padding: 10px;
+}
+
+.header-nav li::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 4px;
+  transition: 0.4s;
+  background-color: #000;
+}
+
+.header-nav li:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
 }
 
 .header-nav span a {

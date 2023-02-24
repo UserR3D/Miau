@@ -88,6 +88,7 @@
   position: absolute;
   width: 60px;
   height: 10px;
+  border-radius: 4px;
   background-color: #000;
 }
 
@@ -102,7 +103,9 @@
 }
 
 .ticket-text {
-  padding: 15px 50px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 10px;
 }
 
 .ticket-p {
