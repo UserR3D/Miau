@@ -1,14 +1,21 @@
 .footer {
   margin-top: 100px;
-  display: flex;
-  background-color: #7aebb2;
+  position: sticky;
+  background-color: #709e67;
+  bottom: -100px;
+  transition: bottom 0.7s;
+}
+
+.footer:hover {
+  bottom: 0px;
 }
 
 .footer-contatos {
   display: flex;
+  justify-content: center;
   align-items: center;
   color: #000;
   gap: 40px;
-  padding: 40px;
+  padding: 20px;
   font-size: 1.4rem;
 }

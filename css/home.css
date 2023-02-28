@@ -55,13 +55,11 @@
   transform: rotate(-40deg);
 }
 
-.circle {
+.circle img {
   display: block;
-  position: absolute;
   margin: 30px 80px;
   width: 300px;
   height: 300px;
-  background-color: #fff;
   border-radius: 360px;
 }
 
@@ -118,13 +116,6 @@
   float: right;
 }
 
-.ticket-text p::after {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: #0085ff;
-}
-
 .ticket-text a {
   color: #fff;
   font-weight: 600;
@@ -133,4 +124,30 @@
   background: linear-gradient(#3bc3e1, #91de76);
   padding: 15px;
   float: right;
+}
+
+.home .ticket-p p::after {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #0085ff;
+}
+
+.home .ticket-p p:nth-child(1)::after {
+  animation: 0.8s width;
+}
+.home .ticket-p p:nth-child(2)::after {
+  animation: 0.4s width;
+}
+.home .ticket-p p:nth-child(3)::after {
+  animation: 3s width;
+}
+
+@keyframes width {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }

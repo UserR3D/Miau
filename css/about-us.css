@@ -28,3 +28,11 @@
 .about:nth-child(2) {
   flex-direction: row-reverse;
 }
+
+.js .about-us.ativo [data-move="up"] {
+  animation: slideUp 1s;
+}
+
+.js .about-us.ativo [data-move="bottom"] {
+  animation: slideBottom 1s;
+}
