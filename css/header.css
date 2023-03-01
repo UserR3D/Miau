@@ -1,6 +1,8 @@
 .header {
   box-shadow: 0 3px 10px #000;
   padding: 15px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 32px;
 }
 
 .header-flex {
@@ -20,19 +22,8 @@
   padding: 10px;
 }
 
-.header-nav li::after {
-  content: "";
-  display: block;
-  width: 0%;
-  height: 4px;
-  transition: 0.4s;
-  background-color: #000;
-}
-
-.header-nav li:hover::after {
-  content: "";
-  display: block;
-  width: 100%;
+.header-nav a:hover {
+  color: blue;
 }
 
 .header-nav span a {
@@ -42,5 +33,5 @@
 }
 
 .header-nav span a:hover {
-  padding: 15px;
+  padding: 20px;
 }

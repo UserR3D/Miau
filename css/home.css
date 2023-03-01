@@ -1,153 +1,20 @@
-.home-grid {
+.home {
   margin-top: 100px;
+  background-color: #b3b5bc;
+  font-family: "Ledger", serif;
+  font-size: 48px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
   align-items: center;
 }
 
-.card-grid {
-  display: grid;
-  justify-content: center;
-  grid-template-rows: 2fr 1fr;
+.home-text {
+  align-self: center;
+  padding-left: 30px;
 }
 
-.card {
-  position: relative;
-  background-color: #f1eeee;
-  height: 550px;
-  padding: 20px;
-  border-radius: 12px;
-  border: solid 10px #3e2828;
-}
-
-.tape {
-  opacity: 0.7;
-  background-color: yellow;
-  width: 130px;
-  height: 40px;
-  border-radius: 4px;
-}
-
-.tape:nth-child(1) {
-  position: absolute;
-  left: -40px;
-  transform: rotate(-40deg);
-}
-
-.tape:nth-child(2) {
-  position: absolute;
-  right: -40px;
-  transform: rotate(40deg);
-}
-
-.tape:nth-child(3) {
-  position: absolute;
-  left: -40px;
-  bottom: 10px;
-  transform: rotate(40deg);
-}
-
-.tape:nth-child(4) {
-  position: absolute;
-  right: -40px;
-  bottom: 10px;
-  transform: rotate(-40deg);
-}
-
-.circle img {
-  display: block;
-  margin: 30px 80px;
-  width: 300px;
-  height: 300px;
-  border-radius: 360px;
-}
-
-.card-text {
-  text-align: center;
-  padding: 5px;
-  font-size: 2.125rem;
-}
-
-.card-text h3 {
-  margin-top: 20px;
-  font-size: 1.5rem;
-}
-
-.ticket {
-  display: grid;
-  grid-template-rows: 0.2fr 1fr;
-  background-color: #fff;
-  border: solid 6px #000;
-  position: relative;
-}
-
-.clip {
-  position: absolute;
-  width: 60px;
-  height: 10px;
-  border-radius: 4px;
-  background-color: #000;
-}
-
-.clip:nth-child(1) {
-  top: 20px;
-  left: 40px;
-}
-
-.clip:nth-child(2) {
-  top: 20px;
-  right: 40px;
-}
-
-.ticket-text {
-  padding-top: 15px;
-  padding-right: 40px;
-  padding-bottom: 10px;
-}
-
-.ticket-p {
-  display: inline-block;
-}
-
-.ticket-text p {
-  font-size: 1.8rem;
-  padding-top: 20px;
-  float: right;
-}
-
-.ticket-text a {
+.home-text a {
+  background-color: #4f3e36;
   color: #fff;
-  font-weight: 600;
-  font-size: 2rem;
-  margin-top: 20px;
-  background: linear-gradient(#3bc3e1, #91de76);
-  padding: 15px;
-  float: right;
-}
-
-.home .ticket-p p::after {
-  content: "";
-  display: block;
-  height: 5px;
-  background-color: #0085ff;
-}
-
-.home .ticket-p p:nth-child(1)::after {
-  animation: 0.8s width;
-}
-.home .ticket-p p:nth-child(2)::after {
-  animation: 0.4s width;
-}
-.home .ticket-p p:nth-child(3)::after {
-  animation: 3s width;
-}
-
-@keyframes width {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
+  padding: 20px;
 }
