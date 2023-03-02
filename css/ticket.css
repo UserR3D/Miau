@@ -55,14 +55,6 @@
   transform: rotate(-40deg);
 }
 
-.circle img {
-  display: block;
-  margin: 30px 80px;
-  width: 300px;
-  height: 300px;
-  border-radius: 360px;
-}
-
 .card-text {
   text-align: center;
   padding: 5px;
