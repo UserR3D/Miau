@@ -4,22 +4,22 @@
 }
 
 .grid-about-miau {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  display: flex;
+  gap: 150px;
   align-items: center;
 }
 
 .miau-card {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+
   gap: 30px;
   padding-top: 20px;
-  flex-wrap: wrap;
   background-color: #f67756;
   border-radius: 8px;
-  position: relative;
 }
 
 .miau-card-text {
@@ -58,5 +58,42 @@
   border-radius: 50%;
 }
 
+.ticket-about-miau {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 25px;
+}
+
 .ticket-miau-text {
+  background-color: #fff;
+  padding: 40px;
+  font-size: 24px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.ticket-miau-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  box-shadow: inset 0px 0px 0px 15px #fff;
+  border-radius: 50%;
+}
+
+.ticket-miau-text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -20px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  box-shadow: inset 0px 0px 0px 15px #fff;
+  border-radius: 50%;
 }
