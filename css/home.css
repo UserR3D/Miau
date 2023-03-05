@@ -2,19 +2,30 @@
   margin-top: 100px;
   background-color: #b3b5bc;
   font-family: "Ledger", serif;
-  font-size: 48px;
+  font-size: 2.6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-content: center;
+}
+
+.home-text img {
+  object-fit: cover;
 }
 
 .home-text {
-  align-self: center;
   padding-left: 30px;
+}
+
+.home-text h2 {
+  margin-bottom: 40px;
 }
 
 .home-text a {
   background-color: #4f3e36;
   color: #fff;
   padding: 20px;
+  font-size: 48px;
+  border-radius: 20px;
+  margin-left: 100px;
 }
