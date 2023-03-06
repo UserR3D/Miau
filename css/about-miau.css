@@ -4,8 +4,9 @@
 }
 
 .grid-about-miau {
-  display: flex;
-  gap: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
   align-items: center;
 }
 
@@ -15,11 +16,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
   gap: 30px;
   padding-top: 20px;
   background-color: #f67756;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .miau-card-text {
@@ -96,4 +97,20 @@
   background-color: #000;
   box-shadow: inset 0px 0px 0px 15px #fff;
   border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+  .grid-about-miau {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .miau-card {
+    padding: 10px;
+  }
+  .miau-card .tape {
+    display: none;
+  }
 }

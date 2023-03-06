@@ -23,7 +23,7 @@
 }
 
 .header-nav a:hover {
-  color: blue;
+  color: #8b0abe;
 }
 
 .header-nav span a {
@@ -34,4 +34,35 @@
 
 .header-nav span a:hover {
   padding: 20px;
+}
+
+@media (max-width: 950px) {
+  .header-flex {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+  .header-flex img {
+    justify-self: center;
+  }
+  .header-nav a,
+  .header-nav span a {
+    padding: 3px;
+    background-color: #fff500;
+    transition: 0.4s;
+    color: #000;
+  }
+
+  .header-nav a:hover,
+  .header-nav span a:hover {
+    padding: 8px;
+    color: #000;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }

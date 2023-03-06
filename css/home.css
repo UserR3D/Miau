@@ -29,3 +29,36 @@
   border-radius: 20px;
   margin-left: 100px;
 }
+
+@media (max-width: 1300px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .home-text {
+    padding: 40px;
+  }
+  .home img {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .home-text {
+    font-size: 1.6rem;
+  }
+  .home-text a {
+    margin-left: 0px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-text {
+    font-size: 1.5rem;
+  }
+  .home-text a {
+    font-size: 1.4rem;
+  }
+}
