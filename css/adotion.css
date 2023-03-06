@@ -5,8 +5,9 @@
 }
 
 .grid-adotion {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 180px;
   justify-content: center;
   align-items: center;
 }
@@ -57,4 +58,14 @@ a {
   background-color: #424242;
   color: #fff;
   padding: 10px;
+}
+
+@media (max-width: 1300px) {
+  .adotion {
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .grid-adotion {
+    gap: 60px;
+  }
 }

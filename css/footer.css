@@ -20,6 +20,7 @@
 
 .footer-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   font-family: "IBM Plex Mono", monospace;
@@ -56,4 +57,16 @@
 
 .footer-list li {
   padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    position: relative;
+  }
+  .footer-flex {
+    gap: 20px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
 }

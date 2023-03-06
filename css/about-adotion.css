@@ -1,6 +1,6 @@
 .about-adotion {
-  margin-top: 100px;
   text-align: center;
+  margin-top: 100px;
   margin-bottom: 60px;
   padding: 40px;
   background-color: #fcfcfc;
@@ -35,7 +35,7 @@
 
 .about-list img {
   justify-self: center;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .about-list h4 {
@@ -50,6 +50,7 @@
 
 .about-adotion-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   margin-bottom: 60px;
