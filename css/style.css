@@ -1,11 +1,17 @@
-@import "global.css";
-@import "header.css";
-@import "home.css";
+@import "./global/global.css";
+/*Predifinições*/
+@import "./predifinicoes/header.css";
+@import "./predifinicoes/footer.css";
+/*??*/
 @import "ticket.css";
 @import "mvv.css";
-@import "about-us.css";
-@import "footer.css";
-@import "adotion.css";
-@import "about-adotion.css";
-@import "about-miau.css";
-@import "./login.css";
+
+/*index.html*/
+@import "./index/home.css";
+@import "./index/about-us.css";
+@import "./index/adotion.css";
+@import "./index/about-adotion.css";
+@import "./index/about-miau.css";
+@import "./index/layout-dog.css";
+/*login.html*/
+@import "login.css";
