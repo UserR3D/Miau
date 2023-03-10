@@ -1,0 +1,25 @@
+.layout-dog {
+  background-color: #dce9e2;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.layout-grid img {
+  position: relative;
+  bottom: -10px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+.layout-grid p {
+  font-size: 48px;
+  text-align: center;
+  width: 30ch;
+  font-weight: 600;
+}
