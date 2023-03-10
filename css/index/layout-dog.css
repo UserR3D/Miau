@@ -2,22 +2,22 @@
   background-color: #dce9e2;
 }
 
-.layout-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.layout-flex {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
 
-.layout-grid img {
+.layout-flex img {
   position: relative;
   bottom: -10px;
   object-fit: contain;
   justify-self: center;
 }
 
-.layout-grid p {
+.layout-flex p {
+  justify-self: center;
   font-size: 48px;
   text-align: center;
   width: 30ch;

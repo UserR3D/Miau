@@ -1,0 +1,17 @@
+.about-miau {
+  margin-top: 40px;
+  background-color: #dce9e2;
+  padding: 40px;
+  text-align: center;
+}
+
+.about-miau h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.mvv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
