@@ -37,17 +37,17 @@
   justify-self: center;
 }
 
-.castracao-img:nth-child(even) {
-  box-shadow: -60px -60px 0 #ccf4e6;
-}
-
-.castracao-img:last-child {
-  box-shadow: 60px -60px 0 #ccf4e6;
-}
-
 .castracao-img img {
   width: 600px;
   object-fit: cover;
+}
+
+.box-shadow {
+  box-shadow: 60px -60px 0 #ccf4e6;
+}
+
+.castracao .box-shadow:nth-last-child(2) {
+  box-shadow: -60px -60px 0 #ccf4e6;
 }
 
 .bc-a {
