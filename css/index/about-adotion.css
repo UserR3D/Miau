@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 
-.about-list::after {
+.box-detail::after {
   content: "";
   display: block;
   width: 100%;
