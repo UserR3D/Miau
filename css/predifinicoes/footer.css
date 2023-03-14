@@ -1,12 +1,7 @@
 .footer {
   margin-top: 100px;
-  bottom: -200px;
   padding: 20px;
   background-color: #69b99d;
-}
-
-.footer:hover {
-  bottom: 0px;
 }
 
 .footer-grid {
@@ -14,12 +9,9 @@
   grid-template-columns: 2fr 1fr 1fr;
   align-items: center;
   justify-content: center;
+  gap: 40px;
   padding-top: 40px;
   margin-bottom: 30px;
-}
-
-.footer-img {
-  margin-left: 190px;
 }
 
 .footer-img img {
@@ -58,8 +50,10 @@
 
 .footer-paginas {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #f4ffff;
-  width: 400px;
+  width: 100%;
 }
 
 .footer-paginas li {

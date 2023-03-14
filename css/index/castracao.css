@@ -46,8 +46,27 @@
   box-shadow: 60px -60px 0 #ccf4e6;
 }
 
-.castracao .box-shadow:nth-last-child(2) {
+.castracao-img.box-shadow:nth-last-child(2) {
   box-shadow: -60px -60px 0 #ccf4e6;
+}
+
+@media (max-width: 600px) {
+  .castracao-text h2 {
+    font-size: 28px;
+  }
+  .castracao-text p {
+    font-size: 16px;
+  }
+  .castracao-img.box-shadow,
+  .castracao-img.box-shadow:nth-last-child(2) {
+    box-shadow: 0 0 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .castracao-text {
+    width: 27ch;
+  }
 }
 
 .bc-a {
