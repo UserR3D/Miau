@@ -23,3 +23,15 @@
   width: 30ch;
   font-weight: 600;
 }
+
+@media (max-width: 900px) {
+  .layout-dog {
+    padding: 30px;
+  }
+  .layout-flex img {
+    display: none;
+  }
+  .layout-flex p {
+    font-size: 2rem;
+  }
+}

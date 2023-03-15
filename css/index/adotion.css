@@ -6,13 +6,38 @@
 }
 
 .grid-adotion {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   gap: 180px;
 }
 
+@media (max-width: 1300px) {
+  .adotion {
+    background-repeat: repeat-x;
+    background-position: bottom;
+  }
+  .grid-adotion {
+    gap: 180px;
+  }
+  .adotion-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-adotion {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .adotion {
+    background-image: none;
+    padding-bottom: 10px;
+  }
+}
 .adotion-base {
   justify-self: center;
 }
@@ -28,15 +53,20 @@
 
 .adotion-base p {
   text-align: center;
-  position: relative;
-  width: 28ch;
   margin-top: 20px;
-  left: -30px;
   font-size: 36px;
   font-weight: 600;
 }
 
+@media (max-width: 900px) {
+  .adotion-base p {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
 .adotion-circle {
+  display: block;
   width: 387px;
   height: 411px;
   background-color: #c7d3c1;
@@ -47,9 +77,9 @@
 .adotion-text {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   font-family: "IBM Plex Mono", monospace;
-  width: 60ch;
 }
 
 .adotion-text h2 {
@@ -73,14 +103,4 @@
   padding: 10px;
   text-align: center;
   border-radius: 10px;
-}
-
-@media (max-width: 1300px) {
-  .adotion {
-    background-repeat: no-repeat;
-    background-position: bottom;
-  }
-  .grid-adotion {
-    gap: 60px;
-  }
 }
