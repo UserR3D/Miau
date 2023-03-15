@@ -57,6 +57,7 @@
 .start-text a {
   margin-bottom: 40px;
   font-size: 25px;
+  white-space: normal;
 }
 
 .start-text a {
@@ -86,6 +87,7 @@
     font-size: 18px;
   }
   .start-text a {
-    padding: 10px;
+    font-size: 1.2rem;
+    padding: 15px;
   }
 }

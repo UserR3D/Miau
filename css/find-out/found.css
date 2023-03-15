@@ -1,0 +1,57 @@
+.founds-info {
+  margin-top: 100px;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.info-flex:last-child {
+  justify-content: space-around;
+}
+
+.info-text {
+  max-width: 700px;
+  text-align: center;
+}
+
+.info-text h3 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.info-text p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #767676;
+}
+
+.info-text p:last-child {
+  margin-bottom: 80px;
+}
+
+.info-img {
+  border-radius: 50%;
+  background-color: #d4d9d8;
+  padding: 40px;
+}
+
+.find-box {
+  height: 600px;
+  text-align: center;
+}
+
+.find-box.flex-wrap {
+  padding: 0px;
+  gap: 10px;
+  padding: 40px;
+}
+
+.find-out-box img {
+  height: 200px;
+  object-fit: contain;
+  width: 200px;
+}

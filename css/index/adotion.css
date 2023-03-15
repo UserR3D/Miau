@@ -1,8 +1,9 @@
 .adotion {
   margin-top: 200px;
-  padding-bottom: 300px;
+  box-sizing: border-box;
+  padding-bottom: 100px;
   background-image: url("../../imgs/logo/Wave.svg");
-  z-index: 0;
+  background-position: bottom;
 }
 
 .grid-adotion {
@@ -13,72 +14,38 @@
   gap: 180px;
 }
 
-@media (max-width: 1300px) {
-  .adotion {
-    background-repeat: repeat-x;
-    background-position: bottom;
-  }
-  .grid-adotion {
-    gap: 180px;
-  }
-  .adotion-text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 900px) {
-  .grid-adotion {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 400px) {
-  .adotion {
-    background-image: none;
-    padding-bottom: 10px;
-  }
-}
 .adotion-base {
-  justify-self: center;
-}
-
-.adotion-base img {
-  width: 558px;
-  height: 429px;
-  top: -60px;
-  left: 20px;
   object-fit: contain;
   position: relative;
 }
 
+.adotion-img {
+  margin: 0 auto;
+  width: 20vw;
+  height: 20vh;
+  background-color: #c7d3c1;
+  box-shadow: 20px 20px 0 #f4fff7;
+  border-radius: 50%;
+  position: relative;
+}
+
+.adotion-img img {
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+}
+
 .adotion-base p {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 40px;
   font-size: 36px;
   font-weight: 600;
-}
-
-@media (max-width: 900px) {
-  .adotion-base p {
-    font-size: 28px;
-    width: 100%;
-  }
-}
-
-.adotion-circle {
-  display: block;
-  width: 387px;
-  height: 411px;
-  background-color: #c7d3c1;
-  border-radius: 50%;
-  box-shadow: 30px 20px 0 3px #f4fff7;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .adotion-text {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   font-family: "IBM Plex Mono", monospace;
 }
 
@@ -101,6 +68,40 @@
   background-color: #424242;
   color: #fff;
   padding: 10px;
-  text-align: center;
   border-radius: 10px;
+}
+
+@media (max-width: 1300px) {
+  .adotion {
+    margin-top: 60px;
+    background-repeat: no-repeat;
+  }
+  .grid-adotion {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .adotion-img {
+    box-shadow: 0 0 0 0;
+    background: none;
+    width: 100%;
+    height: 100%;
+
+    position: static;
+  }
+  .adotion-img img {
+    position: static;
+    margin: 0 auto;
+  }
+  .grid-adotion {
+    gap: 60px;
+  }
+  .adotion-base p {
+    font-size: 1.4rem;
+  }
+  .adotion-text p,
+  .adotion-text a {
+    font-size: 1rem;
+  }
 }

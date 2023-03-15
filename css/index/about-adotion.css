@@ -11,18 +11,6 @@
   margin-bottom: 70px;
 }
 
-.about-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  background-color: #f1eaea;
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-radius: 10px;
-}
-
 .box-detail::after {
   content: "";
   display: block;
@@ -33,16 +21,16 @@
   background-color: #69b99d;
 }
 
-.about-list img {
+.box img {
   justify-self: center;
   object-fit: cover;
 }
 
-.about-list h4 {
+.box h4 {
   font-size: 24px;
 }
 
-.about-list p {
+.box p {
   font-size: 1rem;
   color: #767676;
   width: 27ch;
