@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
   gap: 60px;
 }
 
@@ -39,19 +40,31 @@
   padding: 40px;
 }
 
-.find-box {
-  height: 600px;
-  text-align: center;
-}
-
-.find-box.flex-wrap {
-  padding: 0px;
-  gap: 10px;
-  padding: 40px;
+.find-box.box-detail::after {
+  left: 0;
+  background-color: #636363;
 }
 
 .find-out-box img {
+  margin: 0 auto;
   height: 200px;
   object-fit: contain;
   width: 200px;
+}
+
+.find-box {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  justify-self: center;
+  height: 480px;
+}
+
+.find-box h4 {
+  margin: 10px 0;
+}
+
+.flex-wrap.find-out-box {
+  gap: 10px;
+  flex-wrap: nowrap;
 }
