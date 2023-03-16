@@ -14,5 +14,8 @@
 @import "./index/layout-dog.css";
 @import "./index/castracao.css";
 @import "./index/about-miau.css";
+
+/*find-out*/
+@import "./find-out/found.css";
 /*login.html*/
 @import "login/login.css";
