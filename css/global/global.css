@@ -77,6 +77,21 @@ label {
   border-radius: 10px;
 }
 
+.circles {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+
 .js [data-anime="scroll"] {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
