@@ -1,21 +1,23 @@
-@import "./global/global.css";
+@import "global/global.css";
 /*Predifinições*/
-@import "./predifinicoes/header.css";
-@import "./predifinicoes/footer.css";
-/*??*/
-@import "ticket.css";
+@import "predifinicoes/header.css";
+@import "predifinicoes/footer.css";
 
 /*index.html*/
-@import "./index/start-inicio.css";
-@import "./index/about-us.css";
-@import "./index/adotion.css";
-@import "./index/about-adotion.css";
-@import "./index/about-miau.css";
-@import "./index/layout-dog.css";
-@import "./index/castracao.css";
-@import "./index/about-miau.css";
+@import "index/start-inicio.css";
+@import "index/about-us.css";
+@import "index/adotion.css";
+@import "index/about-adotion.css";
+@import "index/about-miau.css";
+@import "index/layout-dog.css";
+@import "index/castracao.css";
+@import "index/about-miau.css";
 
 /*find-out*/
-@import "./find-out/found.css";
+@import "find-out/found.css";
+
 /*login.html*/
 @import "login/login.css";
+
+/*about-us*/
+@import "about-us/about-us.css";
