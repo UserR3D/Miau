@@ -21,16 +21,7 @@
 
 .castracao-text {
   text-align: center;
-  width: 54ch;
-}
-
-.castracao-text h2 {
-  font-size: 40px;
-}
-
-.castracao-text p {
-  font-size: 25px;
-  color: #767676;
+  max-width: 57ch;
 }
 
 .castracao-img {
@@ -48,6 +39,10 @@
 
 .castracao-img.box-shadow:nth-last-child(2) {
   box-shadow: -60px -60px 0 #ccf4e6;
+}
+
+.castracao-text h2 {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 600px) {

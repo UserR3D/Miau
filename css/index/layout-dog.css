@@ -17,11 +17,8 @@
 }
 
 .layout-flex p {
-  justify-self: center;
-  font-size: 48px;
   text-align: center;
   width: 30ch;
-  font-weight: 600;
 }
 
 @media (max-width: 900px) {

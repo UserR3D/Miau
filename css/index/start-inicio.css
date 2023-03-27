@@ -49,20 +49,11 @@
 
 .start-text h2 {
   margin-bottom: 74px;
-  color: #0f241d;
-  font-size: 48px;
 }
 
 .start-text p,
 .start-text a {
   margin-bottom: 40px;
-  font-size: 25px;
-  white-space: normal;
-}
-
-.start-text a {
-  color: #000;
-  background-color: #ccf4e6;
 }
 
 @media (max-width: 1300px) {
