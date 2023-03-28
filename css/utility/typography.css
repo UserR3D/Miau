@@ -1,0 +1,43 @@
+.text-r0 {
+  font-family: "DM Sans", Times New Roman, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.text-r1 {
+  font-family: "DM Sans", Times New Roman, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.text-m1 {
+  font-family: "DM Sans", Times New Roman, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.text-b1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.text-b2 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.text-b3 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.text-b4 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}

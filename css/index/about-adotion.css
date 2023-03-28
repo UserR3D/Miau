@@ -26,13 +26,7 @@
   object-fit: cover;
 }
 
-.box h4 {
-  font-size: 24px;
-}
-
 .box p {
-  font-size: 1rem;
-  color: #767676;
   width: 27ch;
 }
 

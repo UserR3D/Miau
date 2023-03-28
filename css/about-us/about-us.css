@@ -41,6 +41,26 @@
   border-radius: 10px;
 }
 
+.box-dev::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -80px;
+  z-index: 999;
+  width: 64px;
+  height: 150px;
+  background: linear-gradient(#84e9d0, #efefef);
+}
+
+.box-dev::after {
+  content: "";
+  position: absolute;
+  top: 68px;
+  width: 80px;
+  height: 8px;
+  background-color: #000;
+}
+
 .box-user-img img {
   padding-top: 120px;
   width: 160px;
