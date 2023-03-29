@@ -80,7 +80,7 @@
   height: 300px;
   -webkit-clip-path: polygon(100% 0, 100% 40%, 50% 80%, 0 40%, 0 0);
   clip-path: polygon(100% 0, 100% 40%, 50% 80%, 0 40%, 0 0);
-  background-image: url("/imgs/logo/background-dev.png");
+  background-image: url("/imgs/bg/background-dev.png");
 }
 
 .box-dados p {
