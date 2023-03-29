@@ -4,6 +4,7 @@ export default class ScrollAnima {
     this.windowHalf = window.innerHeight * 0.5;
     this.scroll = this.scroll.bind(this);
   }
+
   getDistance() {
     this.distance = [...this.sections].map((element) => {
       this.sectionTop = element.offsetTop;
@@ -13,6 +14,7 @@ export default class ScrollAnima {
       };
     });
   }
+
   scroll() {
     this.distance.forEach((item) => {
       if (window.scrollY > item.offset) {
@@ -22,6 +24,7 @@ export default class ScrollAnima {
       }
     });
   }
+
   init() {
     this.getDistance();
     this.scroll();

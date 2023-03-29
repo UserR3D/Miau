@@ -54,10 +54,10 @@
 
 .find-box {
   text-align: center;
-  padding: 50px;
+  padding: 10px;
   background-color: #f9f9f9;
-  justify-self: center;
   height: 480px;
+  width: min-content;
 }
 
 .find-box h4 {

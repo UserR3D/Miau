@@ -24,8 +24,8 @@
   flex-direction: column;
   align-items: center;
   width: 350px;
-  height: 34vh;
-  max-height: 50vh;
+  height: 35vh;
+  max-height: 100%;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
