@@ -60,7 +60,10 @@
 
 @media (max-width: 400px) {
   .castracao-text {
-    width: 27ch;
+    width: 100%;
+  }
+  .castracao-text h2 {
+    font-size: 1.2rem;
   }
 }
 

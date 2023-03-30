@@ -108,6 +108,16 @@ label {
   background: linear-gradient(to right, #ccf4e6 20%, #69b99d);
 }
 
+@media (max-width: 400px) {
+  .detalhe::after {
+    display: none;
+  }
+  .button-a {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+}
+
 @keyframes slideUp {
   from {
     opacity: 0;

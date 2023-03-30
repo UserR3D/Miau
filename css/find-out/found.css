@@ -55,16 +55,41 @@
 .find-box {
   text-align: center;
   padding: 10px;
-  background-color: #f9f9f9;
+  width: 300px;
   height: 480px;
-  width: min-content;
+  max-height: 100%;
 }
 
 .find-box h4 {
   margin: 10px 0;
 }
 
-.flex-wrap.find-out-box {
-  gap: 10px;
-  flex-wrap: nowrap;
+@media (max-width: 1000px) {
+  .info-img {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .info-text h3 {
+    font-size: 1.875rem;
+  }
+  .info-text p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .info-text h3 {
+    font-size: 1.4rem;
+  }
+  .info-text p {
+    font-size: 1.2rem;
+  }
+  .find-box h4 {
+    font-size: 1.2rem;
+  }
+  .find-box p {
+    font-size: 1rem;
+  }
 }

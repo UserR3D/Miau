@@ -66,29 +66,36 @@
   .grid-adotion {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 700px) {
   .adotion-img {
     box-shadow: 0 0 0 0;
     background: none;
     width: 100%;
     height: 100%;
-
     position: static;
   }
   .adotion-img img {
     position: static;
     margin: 0 auto;
   }
+}
+
+@media (max-width: 700px) {
   .grid-adotion {
     gap: 60px;
   }
   .adotion-base p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .adotion-text p,
   .adotion-text a {
     font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .adotion {
+    background-image: none;
+  }
+  .adotion-text h2 {
+    font-size: 1.4rem;
   }
 }
