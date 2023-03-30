@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 30px;
 }
 
 .header-nav,
@@ -70,6 +70,9 @@
   .header-nav li {
     margin-top: 20px;
   }
+  .header {
+    position: relative;
+  }
 }
 
 @media (max-width: 500px) {
@@ -77,5 +80,8 @@
     font-size: 1.2rem;
     text-align: center;
     box-shadow: 0 0 0 #000;
+  }
+  .header-nav ul li a {
+    font-size: 1.2rem;
   }
 }
