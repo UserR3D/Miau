@@ -1,5 +1,5 @@
 .bg-login {
-  background: linear-gradient(to right, #c7d3c1 50%, #e5e5e5 50%);
+  background: linear-gradient(to right, #c5f1af 50%, #f7f2f2 50%);
   height: 100vh;
 }
 
@@ -12,7 +12,7 @@
   gap: 200px;
 }
 
-[src$="Img-login.jpg"] {
+[src$="login-img.jpg"] {
   border-radius: 50%;
   border: solid #69b99d 10px;
   box-shadow: 0px 0 0 10px #fff;
@@ -37,6 +37,7 @@
 
 .login-form h4 {
   font-size: 19px;
+  text-align: center;
 }
 
 .login-form h3,
@@ -55,6 +56,12 @@
   border-radius: 20px;
   padding: 30px;
   justify-self: center;
+}
+
+.login-form-box .flex-wrap {
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .login-form-box a {
@@ -112,4 +119,26 @@ input#password {
   box-sizing: border-box;
   padding: 10px;
   padding-left: 50px;
+}
+
+@media (max-width: 1400px) {
+  .bg-login {
+    background: #c5f1af;
+  }
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .login-form-box {
+    width: 750px;
+  }
+  .login img {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .login-form-box {
+    width: 300px;
+    padding: 15px;
+  }
 }

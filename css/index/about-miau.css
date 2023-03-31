@@ -4,12 +4,8 @@
 
 .about-miau {
   margin-top: 40px;
-  padding: 40px;
+  padding: 60px;
   text-align: center;
-}
-
-.about-miau h2 {
-  font-size: 48px;
 }
 
 .mvv-container {
@@ -28,7 +24,8 @@
   flex-direction: column;
   align-items: center;
   width: 350px;
-  height: 30vh;
+  height: 350px;
+  max-height: 100%;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -40,17 +37,17 @@
   height: 190px;
 }
 
-.mvv h4 {
-  padding-bottom: 20px;
-  font-size: 24px;
-}
-
-.mvv-text {
-  color: #767676;
-}
-
 @media (max-width: 400px) {
   .mvv {
     height: 100%;
+  }
+  .mvv h4 {
+    font-size: 1.2rem;
+  }
+  .mvv-text p {
+    font-size: 1rem;
+  }
+  .about-miau h2 {
+    font-size: 1rem;
   }
 }
