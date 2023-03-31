@@ -60,6 +60,10 @@
   max-height: 100%;
 }
 
+.find-box p {
+  margin: 0 auto;
+}
+
 .find-box h4 {
   margin: 10px 0;
 }
