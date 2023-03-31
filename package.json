@@ -4,7 +4,7 @@
   },
   "name": "miau",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
