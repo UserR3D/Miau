@@ -20,23 +20,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./js/modules/slide.js":
-/*!*****************************!*\
-  !*** ./js/modules/slide.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ScrollAnima)\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n\n\nvar ScrollAnima = /*#__PURE__*/function () {\n  function ScrollAnima(container, item) {\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(this, ScrollAnima);\n    this.container = document.querySelector(container);\n    this.item = document.querySelectorAll(item);\n  }\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(ScrollAnima, [{\n    key: \"move\",\n    value: function move(event) {\n      event.preventDefault();\n      console.log(\"oi\");\n    }\n  }, {\n    key: \"init\",\n    value: function init() {\n      var _this = this;\n      this.initBind();\n      this.item.forEach(function (box) {\n        box.addEventListener(\"\", _this.move);\n      });\n    }\n  }, {\n    key: \"initBind\",\n    value: function initBind() {\n      this.init = this.init.bind(this);\n      this.move = this.move.bind(this);\n    }\n  }]);\n  return ScrollAnima;\n}();\n\n\n//# sourceURL=webpack://miau/./js/modules/slide.js?");
-
-/***/ }),
-
 /***/ "./js/script.js":
 /*!**********************!*\
   !*** ./js/script.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_scroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/scroll.js */ \"./js/modules/scroll.js\");\n/* harmony import */ var _modules_slide_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/slide.js */ \"./js/modules/slide.js\");\n\n\nvar scroll = new _modules_scroll_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('[data-anime=\"scroll\"]');\nscroll.init();\nvar slide = new _modules_slide_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"](\"[data-slide='slide']\", '[data-anima=\"slide\"]');\nslide.init();\n\n//# sourceURL=webpack://miau/./js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_scroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/scroll.js */ \"./js/modules/scroll.js\");\n\nvar scroll = new _modules_scroll_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('[data-anime=\"scroll\"]');\nscroll.init();\n\n//# sourceURL=webpack://miau/./js/script.js?");
 
 /***/ }),
 
