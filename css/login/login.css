@@ -26,11 +26,6 @@
   box-sizing: border-box;
 }
 
-.login-form img {
-  position: absolute;
-  top: 0;
-}
-
 .login-form h3 {
   font-size: 36px;
 }
@@ -44,10 +39,6 @@
 .login-form h4 {
   margin: 10px 0;
   padding-bottom: 20px;
-}
-
-.login-form img {
-  margin-top: 40px;
 }
 
 .login-form-box {
