@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 200px;
+  gap: 40px;
 }
 
 .start-img {
@@ -49,20 +50,11 @@
 
 .start-text h2 {
   margin-bottom: 74px;
-  color: #0f241d;
-  font-size: 48px;
 }
 
 .start-text p,
 .start-text a {
   margin-bottom: 40px;
-  font-size: 25px;
-  white-space: normal;
-}
-
-.start-text a {
-  color: #000;
-  background-color: #ccf4e6;
 }
 
 @media (max-width: 1300px) {
@@ -75,7 +67,13 @@
     display: none;
   }
   .start-img.box-shadow {
-    box-shadow: 0 0 0;
+    box-shadow: 0px -60px #ccf4e6;
+  }
+}
+
+@media (max-width: 1500px) {
+  .start-container {
+    margin-top: 80px;
   }
 }
 
@@ -86,8 +84,12 @@
   .start-text p {
     font-size: 18px;
   }
-  .start-text a {
-    font-size: 1.2rem;
-    padding: 15px;
+}
+@media (max-width: 400px) {
+  .start-text h2 {
+    font-size: 1.4rem;
+  }
+  .start-text p {
+    font-size: 1rem;
   }
 }

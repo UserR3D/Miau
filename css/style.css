@@ -2,10 +2,11 @@
 /*Predifinições*/
 @import "predifinicoes/header.css";
 @import "predifinicoes/footer.css";
+@import "utility/typography.css";
+@import "utility/color.css";
 
 /*index.html*/
 @import "index/start-inicio.css";
-@import "index/about-us.css";
 @import "index/adotion.css";
 @import "index/about-adotion.css";
 @import "index/about-miau.css";

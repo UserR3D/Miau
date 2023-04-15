@@ -95,3 +95,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 400px) {
+  .footer-img p {
+    font-size: 1.2rem;
+  }
+  .footer-list a {
+    font-size: 1.2rem;
+  }
+}
