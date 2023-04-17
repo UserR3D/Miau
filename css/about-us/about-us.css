@@ -79,9 +79,8 @@
   display: block;
   width: 100%;
   height: 300px;
-  -webkit-clip-path: polygon(100% 0, 100% 40%, 50% 80%, 0 40%, 0 0);
   clip-path: polygon(100% 0, 100% 40%, 50% 80%, 0 40%, 0 0);
-  background-image: url("/imgs/bg/background-dev.png");
+  background-image: url("../../imgs/bg/background-dev.png");
 }
 
 .box-dados p {
@@ -113,6 +112,11 @@
 
 .box-dados .flex-wrap {
   gap: 8px;
+}
+
+.box-user-img img {
+  width: 200px;
+  height: 200px;
 }
 
 @media (max-width: 800px) {

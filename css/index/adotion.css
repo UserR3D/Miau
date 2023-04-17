@@ -79,6 +79,10 @@
   }
 }
 
+.wrap-box {
+  margin-top: 150px;
+}
+
 @media (max-width: 700px) {
   .grid-adotion {
     gap: 60px;

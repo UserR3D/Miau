@@ -1,7 +1,7 @@
 export default class ScrollAnima {
   constructor(section) {
     this.sections = document.querySelectorAll(section);
-    this.windowHalf = window.innerHeight * 0.5;
+    this.windowHalf = window.innerHeight * 0.7;
     this.scroll = this.scroll.bind(this);
   }
 
