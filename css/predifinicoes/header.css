@@ -68,6 +68,7 @@
 }
 
 .js [data-menu="menu-mobile"] {
+  align-self: end;
   display: none;
   cursor: pointer;
   color: #fff;
@@ -97,6 +98,7 @@
   }
   .header {
     position: relative;
+    box-shadow: 0 0 0 #000;
   }
   .js [data-menu="menu-mobile"] {
     display: flex;
@@ -127,7 +129,6 @@
   .header {
     font-size: 1.2rem;
     text-align: center;
-    box-shadow: 0 0 0 #000;
   }
   .header-nav ul li a {
     font-size: 1.2rem;
