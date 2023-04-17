@@ -6,7 +6,7 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -22,10 +22,6 @@
   margin-top: 20px;
   color: #fff;
   font-size: 25px;
-}
-
-.footer-list {
-  justify-self: center;
 }
 
 .footer-list p {
@@ -51,9 +47,7 @@
 .footer-paginas {
   display: flex;
   align-items: center;
-  justify-content: center;
   color: #f4ffff;
-  width: 100%;
 }
 
 .footer-paginas li {
