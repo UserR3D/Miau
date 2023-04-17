@@ -119,6 +119,12 @@
   height: 200px;
 }
 
+@media (max-width: 1550px) {
+  .box-dev {
+    margin-top: 60px;
+  }
+}
+
 @media (max-width: 800px) {
   .about-us {
     grid-template-columns: 1fr;
