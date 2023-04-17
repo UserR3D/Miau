@@ -1,36 +1,39 @@
-
-#Dprin{
-  display: flex; 
-  padding: 10px; 
+#Dprin {
+  display: flex;
+  padding: 10px;
   margin: 30px;
   text-align: center;
   letter-spacing: 0.2rem;
 }
-#Dseg{
+#Dseg {
   background-color: rgba(165, 165, 165, 0.251);
-   width: 45%;
-   padding: 15px;
-   border-radius: 2%;
-   border: 2px solid black;
-   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
-   max-width: 100%;
-   padding: 15px 20px;
+  width: 45%;
+  padding: 15px;
+  border-radius: 2%;
+  border: 2px solid black;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
+  max-width: 100%;
+  padding: 15px 20px;
 }
-#D-seg{
+
+#Dseg h1 {
+  text-align: center;
+}
+
+#D-seg {
   text-align: center;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
-#D-seg img{
+#D-seg img {
   display: inline-block;
 
   border: 1px solid black;
-  
 }
 .carta {
   background-color: rgba(176, 208, 234, 0.173);
   border: 1px solid #837070;
-  box-shadow: 10px 5px 10px #D3D3D3;
+  box-shadow: 10px 5px 10px #d3d3d3;
   padding: 20px;
   max-width: 500px;
   margin: 20px;
@@ -40,7 +43,7 @@
   float: left;
   width: 50%;
 }
-.carta b{
+.carta b {
   font-size: 20px;
 }
 #Lado {
@@ -67,23 +70,11 @@
   margin-right: 0;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .whatsapp-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px 20px;
-  background-color: green;
-  color: white;
-  border: none;
+  background-color: #008000;
+  color: #fff;
   border-radius: 5px;
-  text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.3s ease-in-out;
@@ -97,5 +88,3 @@
   margin-right: 10px;
   font-size: 20px;
 }
-
-
