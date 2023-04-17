@@ -1,6 +1,8 @@
 
 #Dprin{
-  display: flex; padding: 10px; margin: 30px;
+  display: flex; 
+  padding: 10px; 
+  margin: 30px;
   text-align: center;
   letter-spacing: 0.2rem;
 }
@@ -8,7 +10,7 @@
   background-color: rgba(165, 165, 165, 0.251);
    width: 45%;
    padding: 15px;
-   border-radius: 3%;
+   border-radius: 2%;
    border: 2px solid black;
    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
    max-width: 100%;
@@ -21,54 +23,41 @@
 }
 #D-seg img{
   display: inline-block;
-  width: 80%;
+
   border: 1px solid black;
+  
 }
-.achados-container {
-  position: relative;
-  width: 100%;
-  margin-left: 6rem;
-  border: 2px solid black;
-  object-fit: cover;
-}
-.texto {
-  position: absolute;
-  top: 13%;
-  left: 12%;
-  width: 50%;
-  height: 51.5%;
-  text-align: left;
-  color: #cd2c2c;
+.carta {
+  background-color: rgba(176, 208, 234, 0.173);
+  border: 1px solid #837070;
+  box-shadow: 10px 5px 10px #D3D3D3;
   padding: 20px;
-  overflow: hidden;
-}
-
-.texto h4 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 24px;
-}
-
-.texto p {
-  margin: 0;
+  max-width: 500px;
+  margin: 20px;
   font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  float: left;
+  width: 50%;
 }
-
+.carta b{
+  font-size: 20px;
+}
 #Lado {
-  background-color: rgba(166, 202, 234, 0.779);
+  background-color: rgba(176, 208, 234, 0.173);
   text-align: center;
   width: 100%;
   overflow: hidden;
   padding: 15px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 #Lado img {
   border-radius: 5%;
   display: inline-block;
-  width: 100%;
-  max-width: 260px;
+  width: auto;
+  max-width: 90%;
   height: 350px;
   object-fit: cover;
   margin-right: 2%;
@@ -108,8 +97,5 @@
   margin-right: 10px;
   font-size: 20px;
 }
-#map {
-  height: 400px;
-  width: 100%;
-}
+
 
