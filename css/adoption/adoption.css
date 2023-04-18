@@ -14,12 +14,8 @@
   padding: 15px 20px;
 }
 
-.dseg h1,
-.dseg h3 {
-  text-align: center;
-}
-
 .dseg-bg {
+  text-align: center;
   background-color: #f1eeee;
   padding: 20px;
   border: 10px solid;
@@ -70,7 +66,15 @@
   max-width: 500px;
   padding: 20px;
   line-height: 1.5;
+  color: #f4c285;
+  box-shadow: inset 0 0 0 8px #efa448;
 }
+
+.carta-bg {
+  background-color: #2f1c04;
+  padding: 50px;
+}
+
 .lado {
   margin-top: 100px;
   text-align: center;
@@ -81,6 +85,7 @@
 .lado img {
   border-radius: 5%;
   display: inline-block;
+  width: 263px;
   height: 350px;
   object-fit: cover;
   margin-right: 2%;
