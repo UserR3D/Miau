@@ -11,7 +11,7 @@ var descricao = localStorage.getItem("descricao");
 
 
 var descricaoTela = document.getElementById('descricao-tela');
-descricaoTela.innerHTML = '<p>'+sexo+'</p> <p>'+raca+'</p> <p>'+pelagem+'</p> <p> texto do anunciante: </p> <p>'+descricao+'</p>'
+descricaoTela.innerHTML = '<p>'+sexo+'</p> <p>'+raca+'</p> <p>'+pelagem+'</p> <p> Texto do anunciante: </p> <p>'+descricao+'</p>'
 
 var descricaoAdoteme = document.getElementById('descricao-adoteme');
 var texto=   raca + ', ' + sexo + ', ' + pelagem ;
