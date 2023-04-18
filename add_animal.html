@@ -16,129 +16,77 @@
         <div id="perg1">
             <h2 style="color: red;"><b style="color: black;">Finalidade</b>*</h2>
             <div>
-                <input type="radio" id="p1_op1" name="op" value="1">
+                <input type="radio" id="doar" name="tipo-busca-animal" value="Quero DOAR um Animal">
                 <label for="p1_op1">Quero DOAR um Animal</label>
             </div>
 
             <div>
-                <input type="radio" id="p1_op2" name="op" value="2">
+                <input type="radio" id="procuroDono" name="tipo-busca-animal" value="ENCONTREI um Animal e procuro o Dono">
                 <label for="p1_op2">ENCONTREI um Animal e procuro o Dono</label>
             </div>
 
             <div>
-                <input type="radio" id="p1_op3" name="op" value="3">
+                <input type="radio" id="perdido" name="tipo-busca-animal" value="Estou PROCURANDO meu animal Perdido">
                 <label for="p1_op3">Estou PROCURANDO meu animal Perdido</label>
             </div>
         </div>
         <div id="perg2">
             <h2 style="color: red;"><b style="color: black;">Tipo</b>*</h2>
             <div>
-                <input type="radio" id="p2_op1" name="op1" value="1">
+                <input type="radio" id="p2_op1" name="tipo-animal" value="Cão">
                 <label for="p2_op1">Cão</label>
             </div>
             <div>
-                <input type="radio" id="p2_op2" name="op1" value="2">
+                <input type="radio" id="p2_op2" name="tipo-animal" value="Gato">
                 <label for="p2_op2">Gato</label>
             </div>
         </div>
         <div id="perg3">
             <div>
                 <h2 style="color:red"><b style="color: black;">Sexo</b>*</h2>
-                <input type="radio" id="p3_op1" name="op2" value="1">
+                <input type="radio" id="p3_op1" name="sexo" value="Macho">
                 <label for="p3_op1">Macho</label>
 
-                <input type="radio" id="p3_op2" name="op2" value="1">
+                <input type="radio" id="p3_op2" name="sexo" value="Fêmea">
                 <label for="p3_op2">Fêmea</label>
 
-                <input type="radio" id="p3_op3" name="op2" value="1">
+                <input type="radio" id="p3_op3" name="sexo" value="Ambos(mais de 1 animal)">
                 <label for="p3_op3">Ambos(mais de 1 animal)</label>
             </div>
             <div>
                 <h2 style="color: red;"><b style="color: black;">Nome do animal</b>*</h2>
-                <input type="text" id="text1" size="50" style="height: 1.5rem;">
+                <input type="text" id="nome-animal" size="50" style="height: 1.5rem;">
                 <label for="text1"></label>
             </div>
             <div id="Lados">
                 <div id="Lados T1">
                     <h2><b>Raça</b></h2>
-                    <input type="text" size="30" name="text2" id="text2" style="height: 1.5rem;">
+                    <input type="text" size="30" name="text2" id="raca" style="height: 1.5rem;">
                 </div>
                 <div id="Lados T2">
                     <h2><b>Pelagem</b></h2>
-                    <input type="text" size="30" name="text3" id="text3" style="height: 1.5rem;">
+                    <input type="text" size="30" name="text3" id="pelagem" style="height: 1.5rem;">
                 </div>
             </div>
             <div>
                 <h2><b>Idade</b></h2>
-                <select name="numeros" id="numeros" style="height: 1.5rem;">
-                    <option value="">-Escolha-</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                    <option value="32">32</option>
-                    <option value="33">33</option>
-                    <option value="34">34</option>
-                    <option value="35">35</option>
-                    <option value="36">36</option>
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">42</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                    <option value="47">47</option>
-                    <option value="48">48</option>
-                    <option value="49">49</option>
-                    <option value="50">50</option>
-                </select>
+                <input type="number" size="10" name="text3" id="idade" style="height: 1.5rem;">
             </div>
             <div>
                 <h2 style="color: red;"><b style="color: black;">Porte</b>*</h2>
-                <input type="radio" id="p4_op1" name="op4" value="1">
+                <input type="radio" id="p4_op1" name="porte" value="Pequeno">
                 <label for="p4_op1">Pequeno</label>
 
-                <input type="radio" id="p4_op2" name="op4" value="2">
+                <input type="radio" id="p4_op2" name="porte" value="Médio">
                 <label for="p4_op2">Médio</label>
 
-                <input type="radio" id="p4_op3" name="op4" value="3">
+                <input type="radio" id="p4_op3" name="porte" value="Grande">
                 <label for="p4_op3">Grande</label>
             </div>
             <div>
                 <h2><b>Descrição</b></h2>
                 <label for="texto"></label>
-                <textarea name="texto" id="text10" cols="100" rows="5" style="resize:none;"></textarea>
+                <textarea name="texto" id="descricao" cols="100" rows="5" style="resize:none;"></textarea>
             </div>
             <div>
                 <label class="checkbox-label">
@@ -148,13 +96,14 @@
                 </label>
             </div>
             <div class="button">
-                <input type="submit" value="Adicionar animal">
+                <a  onclick="salvar()"> Adicionar animal </a>
             </div>
             <div>
-                <input type="submit" value="Cancelar">
+                <a href="index.html">Cancelar </a>
             </div>
         </div>
     </div>
+    <script src="js/add_animal.js"></script>
 </body>
 
 </html>

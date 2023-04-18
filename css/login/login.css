@@ -69,12 +69,14 @@
 }
 
 .login-form-inputs input[type],
-.login-form-inputs button {
+.login-form-inputs a {
+  cursor:pointer;
+  display: block;
   width: 100%;
   padding: 5px;
 }
 
-.login-form-inputs button {
+.login-form-inputs a {
   background-color: #69b99d;
   color: #fff;
   border: none;
