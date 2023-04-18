@@ -6,7 +6,7 @@ function entrar() {
     var password = document.getElementById("password").value;
     console.log(email + "   "+password );
 
-    if(email == "matheusfelixr@gmail.com" && password == "123"){
+    if(email == "admin@gmail.com" && password == "123"){
         window.location.replace("add_animal.html")
     }else{
         alert("Ops! Sua senha ou seu e-mail está errada tente digitar novamente.")
